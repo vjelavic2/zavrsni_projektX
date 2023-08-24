@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Poppins:wght@200;500&display=swap');
+
+
+
+* {
+  padding: 0; 
+  margin: 0;
+  font-family: 'Lora', serif;
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+}
+
+
+
+body {
+  background: #FEEFFE; 
+  font-family: 'Lora', serif;
+}
+
+
+
+
+.menu-bar {
+  background: #C2D5AB;
+  text-align: center;
+}
+
+
+.menu-bar ul {
+  display: flex;
+  list-style: none; 
+  color: #fff;
+  flex-wrap: wrap; 
+}
+
+
+.menu-bar ul li {
+  margin: 13px;
+  padding: 13px;
+  flex: 1 0 120px;
+  position: relative;
+}
+
+
+.active,
+.menu-bar ul li:hover {
+  background: #A6C186;
+  border-radius: 5px;
+}
+
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+form {
+    background: #FDF9FD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+  }
+
+
+
+  form label {
+    text-align: left; 
+    margin-left: 20px; 
+    width: 100%;
+  }
+  
+  form p {
+    text-align: left; 
+    margin-left: 20px; 
+    width: 100%;
+    color: #805280;
+    font-size: 22px;
+    font-weight: bold;
+
+  }
+
+  input[type="radio"] {
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #C2D5AB; 
+    margin-right: 5px;
+    outline: none; /
+  }
+input[type="radio"]:checked {
+        background-color: #C2D5AB; 
+        border-color: #C2D5AB; 
+    }
+
+  button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px; 
+    width: 350px;
+    height: 50px;
+    font-size: 22px; 
+    font-weight: bold;
+    color: #805280;
+    background-color: #C2D5AB;
+    border: 2px dashed #805280 ;
+}
+button:hover {
+  background-color: #A6C186;
+}

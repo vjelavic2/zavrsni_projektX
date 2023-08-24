@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Poppins:wght@200;500&display=swap');
+
+
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.begining{
+    background-color: #C2D5AB;
+
+    width: 100%;
+    height: 1075px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.begining h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+
+    color: #FEEFFE ;
+    text-align: center;
+}
+
+.begining .name img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto 20px ;
+
+}
+
+
+
+.begining .slogan{
+    font-size: 25px;
+    font-weight: 750;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 16%;
+    left: 6%;
+    z-index: 2;
+}
+
+
+.begining .signIn {
+    text-decoration: none;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #FEEFFE;
+    color: black;
+    top: 22%;
+    left: 11%;
+    transform: translateX(-50%);
+    z-index: 2;
+    
+}
+.signIn a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.begining .start img{
+    max-width: calc(100% - 150px);
+    margin: 0 75px;
+    position: relative;
+    z-index: 1;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    
+.begining{
+    background-color: #C2D5AB;
+
+    width: 100%;
+    height: 1075px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.begining h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+
+    color: #FEEFFE ;
+    text-align: center;
+}
+
+
+
+.begining .slogan{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 750;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0p;
+    position: absolute;
+    top: 27%;
+    left: 6%;
+    z-index: 2;
+}
+
+
+.begining .signIn {
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #FEEFFE;
+    color: black;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    
+}
+.signIn a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+    
+  }

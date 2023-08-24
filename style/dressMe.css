@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Poppins:wght@200;500&display=swap');
+
+
+
+
+
+* {
+  padding: 0; 
+  margin: 0;
+  font-family: 'Lora', serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+  background: #FEEFFE; 
+  font-family: 'Lora', serif;
+}
+
+
+
+
+.menu-bar {
+  background: #C2D5AB;
+  text-align: center;
+}
+
+
+.menu-bar ul {
+  display: flex;
+  list-style: none; 
+  color: #fff;
+  flex-wrap: wrap; 
+}
+
+
+.menu-bar ul li {
+  margin: 13px;
+  padding: 13px;
+  flex: 1 0 120px;
+  position: relative;
+}
+
+
+.active,
+.menu-bar ul li:hover {
+  background: #A6C186;
+  border-radius: 5px;
+}
+
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+.click-comb{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; 
+}
+
+a img{
+  background-color: #C2D5AB;
+  border-radius: 35px;
+    margin-top: 50px;
+    max-width: 400px; 
+    margin-bottom: 50px;
+
+}
+
+h1 {
+  color: #805280;
+    font-size: 24px; 
+    text-align: center; 
+}
+
+@media screen and (max-width: 480px) {
+  a img {
+    margin-bottom: 30px;
+    margin-top: 70px;
+
+    max-width: 200px;
+    border-radius: 25px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
